@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Useless Stuff  -->
+  <remove-project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
+  <remove-project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
+  <remove-project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin,arm" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
+  <remove-project path="prebuilts/clang/darwin-x86/host/3.3" name="platform/prebuilts/clang/darwin-x86/host/3.3" groups="darwin" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
+  <remove-project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
+  <remove-project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,x86" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
+  <remove-project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" groups="pdk,darwin,x86" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
+  <remove-project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
+  <remove-project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" remote="aosp" groups="pdk,darwin,arm" revision="refs/tags/android-4.4_r1.2" />
+  <remove-project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
+  <remove-project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="pdk,darwin,arm" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
+  <remove-project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
+  <remove-project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
+  <remove-project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
+  <remove-project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" groups="pdk,darwin,mips" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
+  <remove-project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
+  <remove-project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
+  <remove-project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
+
+<!-- Removed repos -->
+  <remove-project path="frameworks/av" name="Cyanogenmod/android_frameworks_av" groups="pdk" />
+  <remove-project path="hardware/libhardware_legacy" name="Cyanogenmod/android_hardware_libhardware_legacy" groups="pdk" />
+  <remove-project path="frameworks/base" name="Cyanogenmod/android_frameworks_base" />
+  <remove-project path="frameworks/native" name="Cyanogenmod/android_frameworks_native" groups="pdk"/>
+  <remove-project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
+  <remove-project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" />
+
+<!-- Hacked Repos -->
+  <project path="frameworks/av" name="PicoKat/android_frameworks_av" groups="pdk" revision="cm-11.0-qcom" />
+  <project path="hardware/libhardware_legacy" name="PicoKat/android_hardware_libhardware_legacy" groups="pdk" />
+  <project path="frameworks/base" name="PicoKat/android_frameworks_base" />
+  <project path="frameworks/native" name="PicoKat/android_frameworks_native" groups="pdk"/>
+  <project path="system/vold" name="PicoKat/android_system_vold" groups="pdk" />
+  <project path="packages/providers/MediaProvider" name="PicoKat/android_packages_providers_MediaProvider" />
+  <project path="hardware/qcom/display-legacy" name="PicoKat/android_hardware_qcom_display-legacy" groups="qcom" />
+  <project path="hardware/qcom/media-legacy" name="PicoKat/android_hardware_qcom_media-legacy" />
+  
+<!-- Device Tree, Kernel and Vendor -->
+  <project path="device/htc/pico" name="PicoKat/cm11-device-pico" revision="master" />
+  <project path="kernel/htc/pico" name="PicoKat/android_kernel_htc_pico" revision="master" />
+  <project path="vendor/htc/pico" name="PicoKat/ics-vendor-pico" revision="master" />
+
+</manifest>
