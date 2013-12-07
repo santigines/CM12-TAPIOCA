@@ -1,6 +1,12 @@
-local_manifest
+PicoKat
 ==============
 
-The local manifests for building CM11 for HTC Pico.
+The local manifests for building CM11 for HTC Explorer/Pico.
 
-TO be used with github.com/Cyanogenmod/android (cm-11.0 branch).
+To be used with github.com/CyanogenMod/android (cm-11.0 branch).
+
+
+To sync:
+
+    curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.github.com/TeamHackLG/local_manifest/cm-11.0/local_manifest.xml
+    repo sync
