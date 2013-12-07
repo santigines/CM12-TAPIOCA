@@ -27,7 +27,7 @@
   <remove-project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk"/>
 
 <!-- Hacked Repos -->
-  <project path="frameworks/av" name="PicoKat/android_frameworks_av" groups="pdk" revision="cm-11.0-qcom" />
+  <project path="frameworks/av" name="PicoKat/android_frameworks_av" groups="pdk" revision="cm-11.0" />
   <project path="hardware/libhardware_legacy" name="PicoKat/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="frameworks/native" name="PicoKat/android_frameworks_native" groups="pdk"/>
   <project path="hardware/qcom/display-legacy" name="PicoKat/android_hardware_qcom_display-legacy" groups="qcom" />
