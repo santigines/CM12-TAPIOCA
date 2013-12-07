@@ -22,9 +22,9 @@
   <remove-project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
 
 <!-- Removed repos -->
-  <remove-project path="frameworks/av" name="Cyanogenmod/android_frameworks_av" groups="pdk" />
-  <remove-project path="hardware/libhardware_legacy" name="Cyanogenmod/android_hardware_libhardware_legacy" groups="pdk" />
-  <remove-project path="frameworks/native" name="Cyanogenmod/android_frameworks_native" groups="pdk"/>
+  <remove-project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
+  <remove-project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
+  <remove-project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk"/>
 
 <!-- Hacked Repos -->
   <project path="frameworks/av" name="PicoKat/android_frameworks_av" groups="pdk" revision="cm-11.0-qcom" />
