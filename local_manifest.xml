@@ -22,16 +22,21 @@
   <remove-project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
 
 <!-- Removed repos -->
+  <remove-project name="CyanogenMod/android_build" />
   <remove-project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
   <remove-project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
   <remove-project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />
   <remove-project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
 
 <!-- LegaCyMod Repos -->
+    <project path="build" name="legaCyMod/android_build" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+    </project>
   <project path="frameworks/av" name="legaCyMod/android_frameworks_av" />
   <project path="frameworks/native" name="legaCyMod/android_frameworks_native" />
   <project path="hardware/libhardware_legacy" name="legaCyMod/android_hardware_libhardware_legacy" />
   <project path="hardware/qcom/media-legacy" name="legaCyMod/android_hardware_qcom_media-legacy" />
+  <project path="vendor/cm" name="legaCyMod/android_vendor_cm" />
   
 <!-- Hacked Repos -->
   <project path="frameworks/base" name="PicoKat/android_frameworks_base" />
