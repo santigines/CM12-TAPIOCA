@@ -22,20 +22,20 @@
   <remove-project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
 
 <!-- Removed repos -->
-  <remove-project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
+  <remove-project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
   <remove-project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
-  <remove-project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk"/>
-  <remove-project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
+  <remove-project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />
+  <remove-project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
 
 <!-- LegaCyMod Repos -->
-  <project path="frameworks/av" name="legaCyMod/android_frameworks_av" groups="pdk" revision="cm-11.0" />
-  <project path="frameworks/native" name="legaCyMod/android_frameworks_native" groups="pdk"/>
-  <project path="hardware/libhardware_legacy" name="legaCyMod/android_hardware_libhardware_legacy" groups="pdk" />
+  <project path="frameworks/av" name="legaCyMod/android_frameworks_av" />
+  <project path="frameworks/native" name="legaCyMod/android_frameworks_native" />
+  <project path="hardware/libhardware_legacy" name="legaCyMod/android_hardware_libhardware_legacy" />
   <project path="hardware/qcom/media-legacy" name="legaCyMod/android_hardware_qcom_media-legacy" />
   
 <!-- Hacked Repos -->
   <project path="frameworks/base" name="PicoKat/android_frameworks_base" />
-  <project path="hardware/qcom/display-legacy" name="PicoKat/android_hardware_qcom_display-legacy" groups="qcom" />
+  <project path="hardware/qcom/display-legacy" name="PicoKat/android_hardware_qcom_display-legacy" />
   
 <!-- Device Tree, Kernel and Vendor -->
   <project path="device/htc/pico" name="PicoKat/cm11-device-pico" revision="master" />
