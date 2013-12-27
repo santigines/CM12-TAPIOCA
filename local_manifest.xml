@@ -39,7 +39,7 @@
   
 <!-- Hacked Repos -->
   <project path="frameworks/base" name="PicoKat/android_frameworks_base" />
-  <project path="frameworks/av" name="legaCyMod/android_frameworks_av" />
+  <project path="frameworks/av" name="PicoKat/android_frameworks_av" />
   <project path="hardware/qcom/display-legacy" name="PicoKat/android_hardware_qcom_display-legacy" />
   
 <!-- Device Tree, Kernel and Vendor -->
