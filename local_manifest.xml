@@ -27,13 +27,15 @@
   <remove-project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk"/>
   <remove-project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
 
+<!-- LegaCyMod Repos -->
+  <project path="frameworks/av" name="legaCyMod/android_frameworks_av" groups="pdk" revision="cm-11.0" />
+  <project path="frameworks/native" name="legaCyMod/android_frameworks_native" groups="pdk"/>
+  <project path="hardware/libhardware_legacy" name="legaCyMod/android_hardware_libhardware_legacy" groups="pdk" />
+  <project path="hardware/qcom/media-legacy" name="legaCyMod/android_hardware_qcom_media-legacy" />
+  
 <!-- Hacked Repos -->
-  <project path="frameworks/av" name="PicoKat/android_frameworks_av" groups="pdk" revision="cm-11.0" />
   <project path="frameworks/base" name="PicoKat/android_frameworks_base" />
-  <project path="frameworks/native" name="PicoKat/android_frameworks_native" groups="pdk"/>
-  <project path="hardware/libhardware_legacy" name="PicoKat/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/display-legacy" name="PicoKat/android_hardware_qcom_display-legacy" groups="qcom" />
-  <project path="hardware/qcom/media-legacy" name="PicoKat/android_hardware_qcom_media-legacy" />
   
 <!-- Device Tree, Kernel and Vendor -->
   <project path="device/htc/pico" name="PicoKat/cm11-device-pico" revision="master" />
