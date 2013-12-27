@@ -37,7 +37,7 @@
   
 <!-- Device Tree, Kernel and Vendor -->
   <project path="device/htc/pico" name="PicoKat/cm11-device-pico" revision="master" />
-  <project path="kernel/htc/pico" name="PicoKat/android_kernel_htc_pico" revision="master" />
+  <project path="kernel/htc/pico" name="PicoKat/android_kernel_htc_pico" revision="pmem" />
   <project path="vendor/htc/pico" name="PicoKat/ics-vendor-pico" revision="master" />
 
 </manifest>
