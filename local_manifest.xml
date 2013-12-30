@@ -42,7 +42,7 @@
   <project path="frameworks/av" name="PicoKat/android_frameworks_av" />
   
 <!-- ION-supported display-legacy -->
-  <project path="hardware/qcom/display-legacy" name="sultanxda/android_hardware_qcom_display-legacy" />
+  <project path="hardware/qcom/display-legacy" name="szezso/android_hardware_qcom_display-legacy" />
   
 <!-- Device Tree, Kernel and Vendor -->
   <project path="device/htc/pico" name="PicoKat/android_device_htc_pico" />
