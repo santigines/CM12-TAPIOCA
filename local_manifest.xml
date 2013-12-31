@@ -36,7 +36,7 @@
 <project path="frameworks/base" name="PicoKat/android_frameworks_base" revision="cm-11.0" />
 <project path="frameworks/av" name="PicoKat/android_frameworks_av" revision="cm-11.0" />
 <!-- ION-supported display-legacy -->
-<project path="hardware/qcom/display-legacy" name="szezso/android_hardware_qcom_display-legacy" revision="cm-11.0" />
+<project path="hardware/qcom/display-legacy" name="szezso/android_hardware_qcom_display-legacy" revision="kitkat" />
 <!-- Device Tree, Kernel and Vendor -->
 <project path="device/htc/pico" name="PicoKat/android_device_htc_pico" revision="kitkat" />
 <project path="kernel/htc/pico" name="PicoKat/android_kernel_htc_pico" revision="ion"/>
