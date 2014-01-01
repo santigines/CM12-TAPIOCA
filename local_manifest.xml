@@ -33,7 +33,6 @@
 <project path="hardware/qcom/media-legacy" name="legaCyMod/android_hardware_qcom_media-legacy" revision="cm-11.0" />
 <project path="vendor/cm" name="legaCyMod/android_vendor_cm" revision="cm-11.0" />
 <!-- Hacked Repos -->
-<project path="frameworks/base" name="PicoKat/android_frameworks_base" revision="cm-11.0" />
 <project path="frameworks/av" name="PicoKat/android_frameworks_av" revision="cm-11.0" />
 <!-- ION-supported display-legacy -->
 <project path="hardware/qcom/display-legacy" name="szezso/android_hardware_qcom_display-legacy" revision="kitkat" />
