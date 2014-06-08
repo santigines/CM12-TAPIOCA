@@ -1,4 +1,4 @@
-PicoKat
+PicoLegacy
 ==============
 
 The local manifests for building CM11 for HTC Explorer/Pico.
