@@ -35,7 +35,7 @@
 <project path="hardware/qcom/media-legacy" name="legaCyMod/android_hardware_qcom_media-legacy" revision="cm-11.0" />
 <project path="external/webkit" name="legaCyMod/android_external_webkit" revision="cm-11.0" />
 <!-- Hacked Repos -->
-<project path="frameworks/av" name="PicoLegacy/android_frameworks_av" revision="cm-11.0" />
+<project path="frameworks/av" name="legaCyMod/android_frameworks_av" revision="cm-11.0" />
 <project path="frameworks/base" name="PicoLegacy/android_frameworks_base" revision="cm-11.0" />
 <project path="packages/apps/settings" name="PicoLegacy/android_packages_apps_Settings" revision="cm-11.0" />
 <project path="frameworks/webview" name="PicoLegacy/android_frameworks_webview" revision="cm-11.0" />
