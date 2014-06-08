@@ -33,6 +33,7 @@
 <project path="frameworks/native" name="androidarmv6/android_frameworks_native" revision="cm-11.0" />
 <project path="hardware/libhardware_legacy" name="legaCyMod/android_hardware_libhardware_legacy" revision="cm-11.0" />
 <project path="hardware/qcom/media-legacy" name="legaCyMod/android_hardware_qcom_media-legacy" revision="cm-11.0" />
+<project path="external/webkit" name="legaCyMod/android_external_webkit" revision="cm-11.0" />
 <!-- Hacked Repos -->
 <project path="frameworks/av" name="PicoLegacy/android_frameworks_av" revision="cm-11.0" />
 <project path="frameworks/base" name="PicoLegacy/android_frameworks_base" revision="cm-11.0" />
