@@ -19,24 +19,18 @@
 <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86" remote="aosp" revision="refs/tags/android-4.4_r1.2"/>
 <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" remote="aosp" revision="refs/tags/android-4.4_r1.2"/>
 <!-- Removed repos -->
-<remove-project name="CyanogenMod/android_build"/>
 <remove-project name="CyanogenMod/android_frameworks_av"/>
 <remove-project name="CyanogenMod/android_frameworks_native"/>
 <remove-project name="CyanogenMod/android_frameworks_base"/>
 <remove-project name="CyanogenMod/android_packages_apps_Settings"/>
-<remove-project name="CyanogenMod/android_external_skia"/>
 <remove-project name="CyanogenMod/android_frameworks_webview"/>
 <!-- Legacy Repos -->
-    <project path="build" name="legaCyMod/android_build" revision="cm-11.0" >
-        <copyfile src="core/root.mk" dest="Makefile" />
-    </project>
 <project path="frameworks/av" name="legaCyMod/android_frameworks_av" revision="cm-11.0" />
 <project path="frameworks/native" name="legaCyMod/android_frameworks_native" revision="cm-11.0" />
 <project path="hardware/qcom/media-legacy" name="legaCyMod/android_hardware_qcom_media-legacy" revision="cm-11.0" />
 <project path="external/webkit" name="androidarmv6/android_external_webkit" revision="cm-11.0" />
-<project path="external/skia" name="androidarmv6/android_external_skia" revision="cm-11.0" />
 <!-- Hacked Repos -->
-<project path="frameworks/base" name="androidarmv6/android_frameworks_base" revision="cm-11.0" />
+<project path="frameworks/base" name="PicoLegacy/android_frameworks_base" revision="cm-11.0" />
 <project path="packages/apps/settings" name="PicoLegacy/android_packages_apps_Settings" revision="cm-11.0" />
 <project path="frameworks/webview" name="PicoLegacy/android_frameworks_webview" revision="cm-11.0" />
 <!-- ION-supported display-legacy -->
