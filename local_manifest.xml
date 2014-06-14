@@ -24,7 +24,7 @@
 <remove-project name="CyanogenMod/android_frameworks_base"/>
 <remove-project name="CyanogenMod/android_packages_apps_Settings"/>
 <remove-project name="CyanogenMod/android_frameworks_webview"/>
-<remove-project name="CyanogenMod/android_android_hardware_qcom_display-caf"/>
+<remove-project name="CyanogenMod/android_hardware_qcom_display-caf"/>
 <!-- Legacy Repos -->
 <project path="frameworks/av" name="legaCyMod/android_frameworks_av" revision="cm-11.0" />
 <project path="frameworks/native" name="legaCyMod/android_frameworks_native" revision="cm-11.0" />
