@@ -35,7 +35,7 @@
 <project path="packages/apps/settings" name="PicoLegacy/android_packages_apps_Settings" revision="cm-11.0" />
 <project path="frameworks/webview" name="PicoLegacy/android_frameworks_webview" revision="cm-11.0" />
 <!-- display-caf -->
-<project path="hardware/qcom/display-legacy" name="PicoLegacy/android_hardware_qcom_display-caf" revision="cm-11.0" />
+<project path="hardware/qcom/display-caf" name="PicoLegacy/android_hardware_qcom_display-caf" revision="cm-11.0" />
 <!-- Device Tree, Kernel and Vendor -->
 <project path="device/htc/pico" name="PicoLegacy/android_device_htc_pico" revision="kitkat-ext" />
 <project path="kernel/htc/pico" name="PicoLegacy/android_kernel_htc_pico" revision="android-4.4"/>
