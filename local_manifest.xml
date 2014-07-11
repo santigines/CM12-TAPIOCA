@@ -26,10 +26,10 @@
 <remove-project name="CyanogenMod/android_packages_apps_CMUpdater"/>
 <remove-project name="CyanogenMod/android_frameworks_webview"/>
 <remove-project name="CyanogenMod/android_hardware_qcom_display-caf"/>
+<remove-project name="CyanogenMod/android_hardware_qcom_media-caf"/>
 <!-- Legacy Repos -->
 <project path="frameworks/av" name="legaCyMod/android_frameworks_av" revision="cm-11.0" />
 <project path="frameworks/native" name="legaCyMod/android_frameworks_native" revision="cm-11.0" />
-<project path="hardware/qcom/media-legacy" name="legaCyMod/android_hardware_qcom_media-legacy" revision="cm-11.0" />
 <project path="external/webkit" name="androidarmv6/android_external_webkit" revision="cm-11.0" />
 <!-- Picolegacy Repos -->
 <project path="frameworks/base" name="PicoLegacy/android_frameworks_base" revision="cm-11.0" />
@@ -38,6 +38,8 @@
 <project path="packages/apps/OpenDelta" name="PicoLegacy/android_packages_apps_OpenDelta" revision="android-4.4" />
 <!-- display-caf -->
 <project path="hardware/qcom/display-caf" name="PicoLegacy/android_hardware_qcom_display-caf" revision="cm-11.0" />
+<!-- media-caf -->
+<project path="hardware/qcom/media-caf" name="PicoLegacy/android_hardware_qcom_media-caf" revision="cm-11.0" />
 <!-- Device Tree, Kernel and Vendor -->
 <project path="device/htc/pico" name="PicoLegacy/android_device_htc_pico" revision="kitkat-ext" />
 <project path="kernel/htc/pico" name="PicoLegacy/android_kernel_htc_pico" revision="android-4.4"/>
