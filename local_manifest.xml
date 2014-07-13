@@ -43,7 +43,7 @@
 <!-- Device Tree, Kernel and Vendor -->
 <project path="device/htc/pico" name="PicoLegacy/android_device_htc_pico" revision="kitkat-ext" />
 <project path="kernel/htc/pico" name="PicoLegacy/android_kernel_htc_pico" revision="android-4.4"/>
-<project path="vendor/htc/pico/proprietary" name="Kirmaniarslan/vendor_htc_pico_proprietary" revision="android-4.4" />
+<project path="vendor/htc/pico/proprietary" name="PicoLegacy/vendor_htc_pico_proprietary" revision="android-4.4" />
 <!-- LINARO TOOLCHAIN -->
 <project name="JustArchi/Linaro" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="4.8-eabi" />
 <project name="JustArchi/Linaro" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="4.8-androideabi" />
