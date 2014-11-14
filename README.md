@@ -1,12 +1,12 @@
 PicoLegacy
 ==============
 
-The local manifests for building CM11 for HTC Explorer/Pico.
+The local manifests for building CM12 for HTC Explorer/Pico.
 
 To sync:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0
-    curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/PicoLegacy/local_manifest/master/local_manifest.xml
+    repo init -u git://github.com/CyanogenMod/android.git -b cm-12.0
+    curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/HTClegacy/local_manifest/master/local_manifest.xml
     repo sync
     sh vendor/cm/get-prebuilts
     source build/envsetup.sh
