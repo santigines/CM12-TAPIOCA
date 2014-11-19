@@ -1,8 +1,8 @@
 <manifest>
 <!-- display-caf -->
-<project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x27a" remote="Kirmaniarslan" revision="cm-12.0-caf-legacy" />
+<project name="kirmaniarslan/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x27a" revision="cm-12.0-caf-legacy" />
 <!-- media-caf -->
-<project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x27a" remote="LegacyXperia" revision="cm-12.0-caf-legacy" />
+<project name="legacyxperia/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x27a" revision="cm-12.0-caf-legacy" />
 <!-- Device Tree, Kernel and Vendor -->
 <project path="device/htc/pico" name="kirmaniarslan/android_device_htc_pico" revision="cm-12.0" />
 <project path="kernel/htc/pico" name="sachinthomaspj/android_kernel_htc_pico" revision="ion"/>
