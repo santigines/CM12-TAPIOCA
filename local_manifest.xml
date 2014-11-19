@@ -19,12 +19,8 @@
 <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" />
 <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
 <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
-<!-- Removed repos -->
-<remove-project name="CyanogenMod/android_build"/>
-<!-- Picolegacy Repos -->
-<project path="build" name="Kirmaniarslan/android_build" revision="cm-12.0" />
 <!-- display-caf -->
-<project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x27a" remote="LegacyXperia" revision="cm-12.0-caf-legacy" />
+<project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x27a" remote="Kirmaniarslan" revision="cm-12.0-caf-legacy" />
 <!-- media-caf -->
 <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x27a" remote="LegacyXperia" revision="cm-12.0-caf-legacy" />
 <!-- Device Tree, Kernel and Vendor -->
