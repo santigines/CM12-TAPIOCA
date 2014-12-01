@@ -40,4 +40,7 @@ cherries+=(79749)
 # Telephony: DcTracker: Fix CDMA APN Data issues.
 cherries+=(79764)
 
+# reduce PB size from 2MB to 512KB
+cherries+=(79102)
+
 ${android}/build/tools/repopick.py -b ${cherries[@]}
