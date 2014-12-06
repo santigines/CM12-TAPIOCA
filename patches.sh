@@ -34,4 +34,7 @@ cherries+=(78849)
 # reduce PB size from 2MB to 512KB
 cherries+=(79102)
 
+# Revert "Revert "Reenable support for non-PIE executables""
+cherries+=(79136)
+
 ${android}/build/tools/repopick.py -b ${cherries[@]}
