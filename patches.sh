@@ -31,4 +31,10 @@ cherries+=(78849)
 # Revert "Revert "Reenable support for non-PIE executables""
 cherries+=(79136)
 
+# Camera2: Remove settings preferences only once
+cherries+=(81019)
+
+# Allow low RAM devices have multiple users
+cherries+=(78423)
+
 ${android}/build/tools/repopick.py -b ${cherries[@]}
