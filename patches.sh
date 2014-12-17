@@ -37,4 +37,7 @@ cherries+=(81019)
 # Allow low RAM devices have multiple users
 cherries+=(78423)
 
+# wifi: Allow building without Wifi HAL
+cherries+=(82159)
+
 ${android}/build/tools/repopick.py -b ${cherries[@]}
