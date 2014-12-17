@@ -22,9 +22,6 @@ cherries+=(79581)
 # Correctly provide the technology to setup data connectiion
 cherries+=(81082)
 
-# recovery: Always include ext4 stuff
-cherries+=(79803)
-
 # build: Add option to disable block-based ota
 cherries+=(78849)
 
