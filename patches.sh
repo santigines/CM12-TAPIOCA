@@ -17,10 +17,7 @@ fi
 cherries+=(79582)
 
 # Build : Add back support for msm7x27a Board
-cherries+=(79581)
-
-# Correctly provide the technology to setup data connectiion
-cherries+=(81082)
+#cherries+=(79581)
 
 # build: Add option to disable block-based ota
 cherries+=(78849)
@@ -33,8 +30,5 @@ cherries+=(81019)
 
 # Allow low RAM devices have multiple users
 cherries+=(78423)
-
-# wifi: Allow building without Wifi HAL
-cherries+=(82159)
 
 ${android}/build/tools/repopick.py -b ${cherries[@]}
