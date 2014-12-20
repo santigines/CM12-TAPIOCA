@@ -31,4 +31,6 @@ cherries+=(81019)
 # Allow low RAM devices have multiple users
 cherries+=(78423)
 
+# Fix memory leak in system_server when screen on/off
+cherries+=(82572)
 ${android}/build/tools/repopick.py -b ${cherries[@]}
