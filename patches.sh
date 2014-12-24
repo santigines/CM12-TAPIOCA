@@ -22,8 +22,8 @@ cherries+=(79582)
 # build: Add option to disable block-based ota
 cherries+=(78849)
 
-# Revert "Revert "Reenable support for non-PIE executables""
-cherries+=(79136)
+# init: change permission for lowmemorykiller back to 664
+cherries+=(82787)
 
 # Camera2: Remove settings preferences only once
 cherries+=(81019)
