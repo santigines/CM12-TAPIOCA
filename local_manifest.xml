@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- remove CM repos -->
+   <remove-project name="CyanogenMod/android_build"/>
    <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+<!-- Hacked CM repos -->
+   <project path="build" name="Kirmaniarslan/android_build" revision="cm-12.0" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+   </project>
 <!-- display-caf -->
    <project name="kirmaniarslan/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x27a" revision="cm-12.0-caf-msm7x27a" />
 <!-- media-caf -->
