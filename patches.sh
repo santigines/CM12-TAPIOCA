@@ -25,8 +25,8 @@ cherries+=(78849)
 # init: change permission for lowmemorykiller back to 664
 cherries+=(82787)
 
-# Camera2: Remove settings preferences only once
-cherries+=(81019)
+# bcmdhd: workaround for driver compiled as a module
+cherries+=(82598)
 
 # Allow low RAM devices have multiple users
 cherries+=(78423)
