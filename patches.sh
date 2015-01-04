@@ -22,16 +22,16 @@ cherries+=(79582)
 # build: Add option to disable block-based ota
 cherries+=(78849)
 
-# init: change permission for lowmemorykiller back to 664
-cherries+=(82787)
-
-# bcmdhd: workaround for driver compiled as a module
-cherries+=(82598)
-
 # Allow low RAM devices have multiple users
 cherries+=(78423)
 
-# Fix memory leak in system_server when screen on/off
-cherries+=(82572)
+# nl80211: Add unhandled attributes from wpa_supplicant
+cherries+=(81764)
+
+# mtdutils: Fix mounting partitions by-name
+cherries+=(83404)
+
+# install: disable signature checking on eng and userdebug builds
+cherries+=(81797)
 
 ${android}/build/tools/repopick.py -b ${cherries[@]}
